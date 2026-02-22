@@ -1,0 +1,4 @@
+# EDIT CONTENT BELOW — Replace https://yourdomain.com with your actual domain
+User-agent: *
+Allow: /
+Sitemap: https://yourdomain.com/sitemap.xml
