@@ -149,12 +149,23 @@ img {
     letter-spacing: -0.02em;
     color: var(--text-primary);
     transition: color var(--transition-fast);
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.logo-bracket {
-    color: var(--accent-1);
-    font-family: var(--font-mono);
-    font-weight: 600;
+.logo-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: var(--radius-sm);
+    background: var(--accent-gradient);
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.1rem;
+    font-family: var(--font-body);
 }
 
 .nav-links {
@@ -547,6 +558,10 @@ img {
 .code-comment {
     color: #64748b;
     font-style: italic;
+}
+
+.code-string {
+    color: #a5d6a7;
 }
 
 /* Scroll Indicator */
