@@ -171,17 +171,15 @@
                 </div>
             </div>
             <div class="hero-visual animate-on-scroll">
-                <div class="code-window">
+                <!-- Java / Selenium Code Window -->
+                <div class="code-window code-window-compact">
                     <div class="code-window-header">
                         <span class="dot red"></span>
                         <span class="dot yellow"></span>
                         <span class="dot green"></span>
                         <span class="code-window-title">AutomationMindset.java</span>
                     </div>
-                    <pre class="code-window-body"><code><span class="code-comment">/**
- * ⚡ Automation Philosophy
- * @author Mastan | SDET
- */</span>
+                    <pre class="code-window-body"><code><span class="code-comment">/** ⚡ Selenium | Java */</span>
 
 <span class="code-keyword">while</span> (bugs.exist()) {
     automate();
@@ -189,15 +187,26 @@
     <span class="code-keyword">if</span> (quality == <span class="code-string">"perfect"</span>)
         <span class="code-keyword">break</span>;
 }
-
-<span class="code-comment">// 🎯 Life Motto</span>
-<span class="code-keyword">if</span> (challenge.isHard()) {
-    <span class="code-method">neverGiveUp</span>();
-    <span class="code-method">keepLearning</span>();
-    <span class="code-method">buildFrameworks</span>();
-}
-
 <span class="code-keyword">return</span> <span class="code-string">"Ship with confidence"</span>;</code></pre>
+                </div>
+                <!-- Playwright / TypeScript Code Window -->
+                <div class="code-window code-window-compact">
+                    <div class="code-window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="code-window-title">lifeMotto.spec.ts</span>
+                    </div>
+                    <pre class="code-window-body"><code><span class="code-comment">// 🎭 Playwright | TypeScript</span>
+
+<span class="code-keyword">test</span>(<span class="code-string">'never stop growing'</span>, <span class="code-keyword">async</span> ({ page }) => {
+  <span class="code-keyword">if</span> (challenge.isHard()) {
+    <span class="code-keyword">await</span> <span class="code-method">neverGiveUp</span>();
+    <span class="code-keyword">await</span> <span class="code-method">keepLearning</span>();
+    <span class="code-keyword">await</span> <span class="code-method">buildFrameworks</span>();
+  }
+  <span class="code-method">expect</span>(success).toBe(<span class="code-string">"inevitable"</span>);
+});</code></pre>
                 </div>
             </div>
         </div>
@@ -298,7 +307,8 @@
                     </div>
                     <div class="skill-tags">
                         <span class="skill-tag skill-tag-featured">Java</span>
-                        <span class="skill-tag">JavaScript (Basics)</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag skill-tag-featured">TypeScript</span>
                     </div>
                 </div>
                 <!-- Automation & Frameworks -->

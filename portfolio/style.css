@@ -479,6 +479,8 @@ img {
 /* Code Window */
 .hero-visual {
     display: flex;
+    flex-direction: column;
+    gap: 16px;
     justify-content: center;
 }
 
@@ -490,6 +492,12 @@ img {
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: var(--shadow-xl), 0 0 80px rgba(37, 99, 235, 0.1);
     overflow: hidden;
+}
+
+.code-window-compact .code-window-body {
+    padding: 16px 20px;
+    font-size: 0.78rem;
+    line-height: 1.7;
 }
 
 .code-window-header {
